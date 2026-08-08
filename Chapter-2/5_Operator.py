@@ -1,32 +1,32 @@
 # Arithmetic Operators(+, -, *, /, %, **, //)
-a=2
-b=4
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
+a = 2
+b = 4
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
 print(a%b)
 print(a**b) # a raised to the power of b
 print(a//b) # floor division
 
 # Assignment Operators(=, +=, -=, *=, /=, %=, **=, //=)
-c=5
-d=6
-print(d-c) # d=d-c
+c = 5
+d = 6
+print(d - c) # d = d - c
 
-e=9
-d+=e # d=d+e
+e = 9
+d += e # d=d+e
 print(d)
 
 # Comparison Operators(==, !=, <, >, <=, >=)
-f=10
-g=20
-print(f==g)
-print(f!=g)
-print(f<g)
-print(f>g)
-print(f<=g)
-print(f>=g)
+f = 10
+g = 20
+print(f == g)
+print(f != g)
+print(f < g)
+print(f > g)
+print(f <= g)
+print(f >= g)
 
 # Logical Operators(and, or, not)
 # and operator [both condition =True return True, Both condition =False return False, One condition =True and other =False return False]
@@ -61,8 +61,8 @@ else:
 
 # Bitwise Operators(&, |, ^, ~, <<, >>)
 # AND operator (&): Compares each bit of two numbers and returns 1 if both bits are 1, otherwise returns 0.
-ali=5
-bat=7
+ali = 5
+bat = 7
 print(ali & bat)
 
 # OR operator (|): Compares each bit of two numbers and returns 1 if at least one of the bits is 1, otherwise returns 0.
